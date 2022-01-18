@@ -11,12 +11,13 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
       MYSQL_DATABASE: nikamooz
+      MYSQL_CHARSET: utf8
+      MYSQL_COLLATION: utf8_general_ci
     volumes:
       - ./data/mysql:/var/lib/mysql
     networks:
       - services
-  
-  
-networks: 
+
+networks:
   services:
     name: ${APP_NAME:-irbigdata}_network
