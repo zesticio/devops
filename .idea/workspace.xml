@@ -11,6 +11,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\tools\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24boSqhDPSdGbwxNcQD3il4VKGV" />
@@ -24,8 +25,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -41,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643908649297</updated>
       <workItem from="1643908650472" duration="127000" />
-      <workItem from="1643908791512" duration="1005000" />
+      <workItem from="1643908791512" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643909275120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated">
+      <created>1643909821383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643909821383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
