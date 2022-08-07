@@ -1,0 +1,47 @@
+version: '3.1'
+
+services:
+        camunda:
+                image: camunda/camunda-bpm-platform:run-latest
+                container_name: camunda
+                hostname: camunda
+                restart: unless-stopped
+                environment:
+                    DB_DRIVER: com.mysql.cj.jdbc.Driver
+                    DB_URL: jdbc:mysql://mariadb:9002/camunda?autoReconnect=true
+                    DB_USERNAME: camunda
+                    DB_PASSWORD: camundarw
+                    WAIT_FOR: mariadb:9002
+                #volumes:
+                #    - ./data/camunda:/var/lib/camunda
+                links:
+                    - mariadb
+                ports:
+                    - "9000:8080"
+                    - "9001:8000"
+                networks:
+                    - camunda-network
+                        
+          mariadb:
+                image: mariadb
+                container_name: camunda-database
+                restart: unless-stopped
+                volumes:
+                    - ./data/mysql:/var/lib/mysql
+                    - ./mariadb/my.cnf:/etc/mysql/mariadb.conf.d/my.cnf:ro
+                ports:
+                    - "9002:3306"
+                environment:
+                    MYSQL_ROOT_PASSWORD: MariaDB
+                    MYSQL_USER: camunda
+                    MYSQL_PASSWORD: camundarw
+                    MYSQL_DATABASE: camunda
+                    MYSQL_CHARSET: utf8
+                    MYSQL_COLLATION: utf8_general_ci
+            networks:
+                - camunda-network
+networks:
+    camunda-network:
+        driver: bridge
+        #name: camunda-network
+
