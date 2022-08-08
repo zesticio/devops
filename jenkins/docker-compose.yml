@@ -13,7 +13,7 @@ services:
                         - "6080:8080"
                         - "50000:50000"
                 volumes:
-                        - $HOME/data/jenkins:/var/jenkins
+                        - $HOME/data/jenkins:/var/jenkins_home
                         - ~/var/run/docker.sock:/var/run/docker.sock
 networks:
         jenkins-network:

@@ -1,0 +1,96 @@
+version: "3.6"
+
+services:
+        activemq:
+                build:
+                        context: ./activemq
+                        dockerfile: Dockerfile
+                hostname: activemq
+                container_name: activemq
+                ports:
+                        - 5672:5672
+                        - 8161:8161
+                        - 61616:61616                          
+                volumes:
+                        - $HOME/data/activemq:/activemq
+                        - "./activemq/conf/activemq.xml:/conf/activemq.xml"
+                environment:
+                        - "JAVA_OPTS=-XX:MaxRAM=256m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+                        - "TZ=Asia/Calcutta"
+                restart: always
+                networks:
+                        - zestic
+
+        crm:
+                build:
+                        context: ./crm
+                        dockerfile: Dockerfile
+                hostname: crm
+                container_name: crm
+                ports:
+                        - 9000:8080
+                volumes:
+                        - $HOME/data/crm:/data                        
+                environment:
+                        - "JAVA_OPTS=-XX:MaxRAM=256m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+                        - "TZ=Asia/Calcutta"
+                restart: always
+                networks:
+                        - zestic                
+
+        pim:
+                build:
+                        context: ./pim
+                        dockerfile: Dockerfile
+                hostname: pim
+                container_name: pim
+                ports:
+                        - 9001:8080
+                volumes:
+                        - $HOME/data/pim:/data
+                environment:
+                        - "JAVA_OPTS=-XX:MaxRAM=256m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+                        - "TZ=Asia/Calcutta"
+                restart: always
+                networks:
+                        - zestic
+
+
+        firehose:
+                build:
+                        context: ./firehose
+                        dockerfile: Dockerfile
+                hostname: firehose
+                container_name: firehose
+                ports:
+                        - 9002:8080                
+                volumes:
+                        - $HOME/data/firehose:/data
+                environment:
+                        - "JAVA_OPTS=-XX:MaxRAM=256m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+                        - "TZ=Asia/Calcutta"
+                restart: always
+                networks:
+                        - zestic                
+
+
+        inventory:
+                build:
+                        context: ./inventory
+                        dockerfile: Dockerfile
+                hostname: inventory
+                container_name: inventory
+                ports:
+                        - 9003:8080
+                volumes:
+                        - $HOME/data/inventory:/data
+                environment:
+                        - "JAVA_OPTS=-XX:MaxRAM=256m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+                        - "TZ=Asia/Calcutta"
+                restart: always
+                networks:
+                        - zestic                
+networks:
+        zestic:
+                external: true
+                name: zestic

@@ -1,0 +1,14 @@
+version: '3.2'
+services:
+  activemq:
+    container_name: activemq
+    hostname: activemq
+    restart: always
+    environment:
+      - "TZ=Asia/Calcutta"                    
+    build: 
+        context: ./apache-activemq-5.16.0
+        dockerfile: Dockerfile
+    ports:
+      - "8161:8161"
+      - "61616:61616"

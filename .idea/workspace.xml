@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="Updated">
+    <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authelia/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authelia/config/configuration.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authelia/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bind9/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bind9/config/example.named.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bind9/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duplicati/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duplicati/duplicati.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homer/assets/example.config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homer/assets/example.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homer/assets/example2.config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homer/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jellyfin/jellyfin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextcloud/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextcloud/nextcloud-npm.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextcloud/nextcloud.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/mariadb/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pihole/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pihole/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plex/plex.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portainer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portainer/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/config/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia DGCM exporter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia DGCM exporter/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia_smi_exporter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia_smi_exporter/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/cadvisor/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/exporters/node_exporter/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swag/swag-mysql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swag/swag.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teleport/README..md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teleport/teleport.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traefik/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traefik/config/example.traefik.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traefik/config/traefik.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traefik/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uptimekuma/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uptimekuma/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whoami/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whoami/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres/Postgres-Docker-Compose.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authy/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authy/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/camunda/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install_docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +73,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24boSqhDPSdGbwxNcQD3il4VKGV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nginx" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
@@ -35,6 +94,24 @@
   </component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Zestic\Products\dockers\nginx" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +123,8 @@
       <updated>1643908649297</updated>
       <workItem from="1643908650472" duration="127000" />
       <workItem from="1643908791512" duration="1113000" />
-      <workItem from="1659892212746" duration="41000" />
+      <workItem from="1659892212746" duration="699000" />
+      <workItem from="1659977790855" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -83,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643909821383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated">
+      <created>1659892288941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659892288941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated">
+      <created>1659892318091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659892318091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +194,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
