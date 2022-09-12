@@ -17,13 +17,9 @@ services:
     networks:
       - zestic.internal
       - zestic.external
-      - overnet
 
 networks:
   zestic.internal:
     external: true
   zestic.external:
     external: true
-  overnet:
-    external: true
-    driver: overlay
