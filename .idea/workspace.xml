@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/letsencrypt/create_certificate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/create_custom_certificate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0000_csr-certbot.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0001_csr-certbot.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0002_csr-certbot.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0003_csr-certbot.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0004_csr-certbot.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/api.dev.zestic.in.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/nginx.cluster01.dev.zestic.in.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/nginx.cluster02.dev.zestic.in.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/portainer.cluster01.dev.zestic.in.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/portainer.cluster02.dev.zestic.in.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-dev-env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-dev-env/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-dev-env/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-dev-env/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-dev-env/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +60,7 @@
       <workItem from="1661408666105" duration="2543000" />
       <workItem from="1661422526099" duration="1221000" />
       <workItem from="1661439530904" duration="613000" />
+      <workItem from="1662990938702" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -141,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659978782759</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated">
+      <created>1662990972018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662990972018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
