@@ -1,17 +1,20 @@
-version: '3'
-
-volumes:
-  portainer-data:
-    driver: local
-
+version: '2'
 services:
-  app:
+  portainer:
     container_name: portainer
     image: 'portainer/portainer-ce:latest'
+    restart: always
+    privileged: true
     ports:
-      - '9000:9000'
-      - '9443:9443'
-      - '8000:8000'
+      - '6443:9443'
     volumes:
+      - /zestic/data/portainer/data:/data:Z
       - /var/run/docker.sock:/var/run/docker.sock
-      - portainer-data:/data
+    networks:
+      - zestic.internal
+      - zestic.external
+networks:
+  zestic.internal:
+    external: true
+  zestic.external:
+    external: true
