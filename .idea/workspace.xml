@@ -2,63 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authelia/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authelia/config/configuration.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authelia/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bind9/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bind9/config/example.named.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bind9/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/duplicati/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/duplicati/duplicati.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homer/assets/example.config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homer/assets/example.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homer/assets/example2.config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homer/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jellyfin/jellyfin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextcloud/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextcloud/nextcloud-npm.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextcloud/nextcloud.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/mariadb/my.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pihole/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pihole/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plex/plex.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portainer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portainer/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/config/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia DGCM exporter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia DGCM exporter/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia_smi_exporter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/Nvidia_smi_exporter/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/cadvisor/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/exporters/node_exporter/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swag/swag-mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swag/swag.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teleport/README..md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teleport/teleport.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traefik/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traefik/config/example.traefik.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traefik/config/traefik.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traefik/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uptimekuma/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uptimekuma/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whoami/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whoami/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/create_certificate.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/create_custom_certificate.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0000_csr-certbot.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0001_csr-certbot.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0002_csr-certbot.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0003_csr-certbot.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/csr/0004_csr-certbot.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/letsencrypt.log.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/api.dev.zestic.in.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/nginx.cluster01.dev.zestic.in.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/nginx.cluster02.dev.zestic.in.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/portainer.cluster01.dev.zestic.in.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letsencrypt/renewal/portainer.cluster02.dev.zestic.in.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx-dev-env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authy/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authy/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camunda/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/camunda/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install_docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-dev-env/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-dev-env/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-dev-env/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-dev-env/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +38,11 @@
     <option name="PATH_TO_GIT" value="C:\tools\Git-2.36.1\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1dfcfcaf-7152-4102-888d-6b47b9c5bd0c" />
+  </component>
   <component name="ProjectId" id="24boSqhDPSdGbwxNcQD3il4VKGV" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nginx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
@@ -100,19 +69,6 @@
       <recent name="C:\GitHub\Zestic\Products\dockers\nginx" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,7 +80,10 @@
       <workItem from="1643908650472" duration="127000" />
       <workItem from="1643908791512" duration="1113000" />
       <workItem from="1659892212746" duration="699000" />
-      <workItem from="1659977790855" duration="696000" />
+      <workItem from="1659977790855" duration="3316000" />
+      <workItem from="1661408666105" duration="2543000" />
+      <workItem from="1661422526099" duration="1221000" />
+      <workItem from="1661439530904" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -175,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659892318091</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated">
+      <created>1659978782759</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659978782759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

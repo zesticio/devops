@@ -22,8 +22,8 @@ services:
     image: mariadb
     restart: unless-stopped
     volumes:
-      - ./data/mysql:/var/lib/mysql
-      - ./mariadb/my.cnf:/etc/mysql/mariadb.conf.d/my.cnf:ro
+        - ./data/mysql:/var/lib/mysql
+        - ./mariadb/my.cnf:/etc/mysql/mariadb.conf.d/my.cnf:ro
     ports:
       - "4306:3306"
     environment:
