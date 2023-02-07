@@ -1,0 +1,24 @@
+version: "3.6"
+#all port number should be exposed appending 9
+services:
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    volumes:
+      - ./config/nginx.conf:/etc/nginx/nginx.conf
+      - ./config/certificates.conf:/etc/nginx/certificates.conf
+      - ./config/ssl-params.conf:/etc/nginx/ssl-params.conf
+      - ./config/nginx.crt:/etc/ssl/certs/nginx.crt
+      - ./config/nginx.key:/etc/ssl/private/nginx.key
+      - ./config/nginx.pem:/etc/ssl/certs/nginx.pem
+    ports:
+      - "443:443"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    name: proxy
+    external: true
