@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/development/nginx/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1675773925252" duration="5824000" />
       <workItem from="1675783876769" duration="6719000" />
       <workItem from="1675861520927" duration="1232000" />
-      <workItem from="1675871316970" duration="1482000" />
+      <workItem from="1675871316970" duration="1853000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675872192672</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated">
+      <created>1675873211580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675873211580</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
