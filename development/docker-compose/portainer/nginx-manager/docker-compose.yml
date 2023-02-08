@@ -39,6 +39,6 @@ services:
       - portainer
 
 networks:
-  proxy:
+  portainer:
     name: portainer
     external: true
