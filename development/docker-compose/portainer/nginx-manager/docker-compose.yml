@@ -14,20 +14,14 @@ services:
     volumes:
       - ./nginx:/data
       - ./nginx/letsencrypt:/etc/letsencrypt
-      - ./config/certificates.conf:/etc/nginx/certificates.conf
-      - ./config/ssl-params.conf:/etc/nginx/ssl-params.conf
-      - ./config/nginx.crt:/etc/ssl/certs/nginx.crt
-      - ./config/nginx.key:/etc/ssl/private/nginx.key
-      - ./config/nginx.pem:/etc/ssl/certs/nginx.pem
     ports:
-      - "8443:8443"
       - "443:443"
       - "80:80"
       - "81:81"
     depends_on:
       - mariadb
     networks:
-      - proxy
+      - portainer
 
   mariadb:
     image: mariadb
@@ -42,9 +36,9 @@ services:
       MYSQL_CHARSET: utf8
       MYSQL_COLLATION: utf8_general_ci
     networks:
-      - proxy
+      - portainer
 
 networks:
   proxy:
-    name: proxy
+    name: portainer
     external: true
