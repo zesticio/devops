@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/config/cert.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/config/certificates.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/config/mime.types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/config/ssl-params.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/nginx-manager/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/nginx-manager/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/shutdown.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/docker-compose/nginx-manager/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/docker-compose/nginx-manager/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/nginx-manager/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/docker-compose/nginx/config/nginx.crt" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/nginx/config/nginx.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/docker-compose/nginx/config/nginx.pem" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/nginx/config/nginx.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/docker-compose/portainer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/portainer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/development/nginx/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/development/docker-compose/nginx/.env&#10;C:/GitHub/Zestic/DevOps/development/docker-compose/nginx-manager/.env" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/development/docker-compose/portainer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/development/nginx" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
@@ -59,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Zestic\DevOps\development\nginx" />
       <recent name="C:\GitHub\Zestic\DevOps\development\docker-compose\portainer" />
       <recent name="C:\GitHub\Zestic\DevOps\development\docker-compose\nginx-manager" />
       <recent name="C:\GitHub\Zestic\DevOps\development\docker-compose\nginx" />
       <recent name="C:\GitHub\Zestic\DevOps\development\minikube" />
-      <recent name="C:\GitHub\Zestic\DevOps\development" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\Zestic\DevOps\development\docker-compose\portainer" />
@@ -103,7 +89,7 @@
       <workItem from="1675773925252" duration="5824000" />
       <workItem from="1675783876769" duration="6719000" />
       <workItem from="1675861520927" duration="1232000" />
-      <workItem from="1675871316970" duration="851000" />
+      <workItem from="1675871316970" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -196,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675790176586</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated">
+      <created>1675872192672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675872192672</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,10 +213,10 @@
       <path value="$PROJECT_DIR$/development/docker-compose/nginx-dev-env" />
       <path value="$PROJECT_DIR$/nginx-dev-env" />
     </ignored-roots>
-    <MESSAGE value="Updated" />
     <MESSAGE value="Removed mongo" />
     <MESSAGE value="Added Nginx &amp; Nginx Manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Nginx &amp; Nginx Manager" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

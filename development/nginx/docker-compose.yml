@@ -1,0 +1,50 @@
+version: "3.6"
+#all port number should be exposed appending 9
+services:
+
+  nginx:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    environment:
+      DB_MYSQL_HOST: "mariadb"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: "nginx"
+      DB_MYSQL_PASSWORD: "nginxrw"
+      DB_MYSQL_NAME: "nginx"
+    volumes:
+      - ./nginx:/data
+      - ./nginx/letsencrypt:/etc/letsencrypt
+      - ./config/certificates.conf:/etc/nginx/certificates.conf
+      - ./config/ssl-params.conf:/etc/nginx/ssl-params.conf
+      - ./config/nginx.crt:/etc/ssl/certs/nginx.crt
+      - ./config/nginx.key:/etc/ssl/private/nginx.key
+      - ./config/nginx.pem:/etc/ssl/certs/nginx.pem
+    ports:
+      - "8443:8443"
+      - "443:443"
+      - "80:80"
+      - "81:81"
+    depends_on:
+      - mariadb
+    networks:
+      - proxy
+
+  mariadb:
+    image: mariadb
+    restart: unless-stopped
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: MARIADB
+      MYSQL_USER: nginx
+      MYSQL_PASSWORD: nginxrw
+      MYSQL_DATABASE: nginx
+      MYSQL_CHARSET: utf8
+      MYSQL_COLLATION: utf8_general_ci
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    name: proxy
+    external: true
