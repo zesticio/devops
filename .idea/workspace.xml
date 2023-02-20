@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/nginx/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/docker-compose/portainer/nginx/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/broker-list.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/create-topics.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-single-broker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-swarm.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/docker_buildx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/docker_push" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/download-kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/overrides/0.9.0.1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/start-kafka-shell.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/start-kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.broker-list.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.create-topics-custom-separator.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.path.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.read-write.kafkacat.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-advertised-host.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-broker-id.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-312-kafka-env.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-313-kafka-opts.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-host-name.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-log4j-config.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-port-command.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-restart.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.10/test.create-topics.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.snappy.kafkacat.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-advertised-listeners.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-listeners.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-multiple-listeners.kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/internal-broker-list.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/runAllTests.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/runTestPattern.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/jmxexporter.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/runJmxScenario.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/test.functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/verifyImageLabels.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/test/version.functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/kafka/versions.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/zookeeper/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/zookeeper/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/zookeeper/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/zookeeper/download.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/dockers/zookeeper/start-zk.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docker-compose/portainer/nginx/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/docker-compose/portainer/nginx/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +97,7 @@
       <workItem from="1676466564306" duration="641000" />
       <workItem from="1676481622547" duration="306000" />
       <workItem from="1676523909472" duration="1189000" />
-      <workItem from="1676910773839" duration="122000" />
+      <workItem from="1676910773839" duration="1847000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>
@@ -285,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675874446069</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated">
+      <created>1676910914825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676910914825</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
