@@ -1,0 +1,17 @@
+version: "3.6"
+#all port number should be exposed appending 9
+services:
+
+  nginx:
+    image: 'zesticio/nginx:latest'
+    restart: unless-stopped
+    ports:
+      - "443:443"
+      - "80:80"
+    networks:
+      - portainer
+
+networks:
+  portainer:
+    name: portainer
+    external: true
