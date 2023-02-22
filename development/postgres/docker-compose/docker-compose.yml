@@ -1,0 +1,25 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    hostname: postgres
+    restart: always
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Reset@123
+      - POSTGRES_DB=test
+    ports:
+      - 5432:5432
+    networks:
+      - portainer
+
+volumes:
+  metadata_data: { }
+
+networks:
+  portainer:
+    name: portainer
+    external: true
