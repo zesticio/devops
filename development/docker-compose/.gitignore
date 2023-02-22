@@ -109,7 +109,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+../postgres/portainer/.env
 .venv
 env/
 venv/
