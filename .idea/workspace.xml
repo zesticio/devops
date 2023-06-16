@@ -2,10 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b65428-e34b-4771-aa9f-b0cbd3b80340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/development/postgres/docker-compose/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/postgres/docker-compose/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development/postgres/docker-compose/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/corretto-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/corretto-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docker-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/broker-list.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/broker-list.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/create-topics.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/create-topics.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-single-broker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-single-broker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-swarm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose-swarm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/docker_buildx" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/docker_buildx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/docker_push" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/docker_push" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/download-kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/download-kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/overrides/0.9.0.1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/overrides/0.9.0.1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/start-kafka-shell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/start-kafka-shell.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/start-kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/start-kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.broker-list.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.broker-list.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.create-topics-custom-separator.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.create-topics-custom-separator.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.path.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.path.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.read-write.kafkacat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.read-write.kafkacat.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-advertised-host.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-advertised-host.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-broker-id.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-broker-id.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-312-kafka-env.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-312-kafka-env.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-313-kafka-opts.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-bug-313-kafka-opts.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-host-name.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-host-name.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-log4j-config.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-log4j-config.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-port-command.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-port-command.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-restart.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.0/test.start-kafka-restart.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.10/test.create-topics.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.10/test.create-topics.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.snappy.kafkacat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.snappy.kafkacat.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-advertised-listeners.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-advertised-listeners.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-listeners.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-listeners.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-multiple-listeners.kafka.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/0.9/test.start-kafka-multiple-listeners.kafka.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/internal-broker-list.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/internal-broker-list.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/runAllTests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/runAllTests.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/runTestPattern.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/runTestPattern.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/jmxexporter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/jmxexporter.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/jmx/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/runJmxScenario.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/scenarios/runJmxScenario.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/test.functions" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/test.functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/verifyImageLabels.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/verifyImageLabels.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/test/version.functions" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/test/version.functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/kafka/versions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/kafka/versions.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/zookeeper/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/zookeeper/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/zookeeper/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/zookeeper/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/zookeeper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/zookeeper/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/zookeeper/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/zookeeper/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/dockers/zookeeper/start-zk.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/dockers/zookeeper/start-zk.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/cert.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/cert.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/certificates.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/certificates.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/ssl-params.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx-manager/docker-compose/config/ssl-params.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx-manager/docker-compose/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx-manager/docker-compose/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx-manager/docker-compose/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx-manager/docker-compose/shutdown.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/config/cert.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/config/cert.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/config/certificates.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/config/certificates.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/config/nginx.crt" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/config/nginx.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/config/nginx.pem" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/config/nginx.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/config/ssl-params.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/config/ssl-params.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/docker-compose/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/docker-compose/shutdown.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/config/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/css/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/400.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/402.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/402.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/405.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/405.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/406.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/406.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/407.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/407.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/408.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/408.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/409.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/409.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/410.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/410.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/411.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/411.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/412.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/412.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/413.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/413.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/414.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/414.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/415.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/415.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/416.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/416.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/417.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/417.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/418.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/418.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/421.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/421.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/422.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/423.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/423.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/424.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/424.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/425.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/425.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/426.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/426.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/428.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/428.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/429.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/429.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/431.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/431.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/451.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/451.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/501.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/501.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/502.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/502.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/503.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/503.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/504.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/504.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/505.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/505.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/506.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/506.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/507.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/507.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/508.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/508.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/510.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/510.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/511.html" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/511.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/fonts/montserrat-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/fonts/montserrat-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/fonts/montserrat-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/errors/assets/fonts/montserrat-700.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/fonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/nginx-errors.conf" beforeDir="false" afterPath="$PROJECT_DIR$/development/nginx/portainer/nginx/html/nginx-errors.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/portainer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/portainer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/portainer/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/portainer/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/portainer/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portainer/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/portainer/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/portainer/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/portainer/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/portainer/shutdown.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +160,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/development/docker-compose/nginx/.env&#10;C:/GitHub/Zestic/DevOps/development/docker-compose/nginx-manager/.env" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/development/postgres/docker-compose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
@@ -55,23 +178,21 @@
       <recent name="C:\GitHub\Zestic\DevOps\development\docker-compose\portainer\postgres" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Zestic\Products\Dockers" />
       <recent name="C:\GitHub\Zestic\DevOps\development\portainer" />
       <recent name="C:\GitHub\Zestic\DevOps\development\postgres\portainer" />
       <recent name="C:\GitHub\Zestic\DevOps\development\nginx-manager\portainer" />
       <recent name="C:\GitHub\Zestic\DevOps\development\nginx\portainer" />
-      <recent name="C:\GitHub\Zestic\DevOps\development\nginx-manager\docker-compose" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +226,8 @@
       <workItem from="1676523909472" duration="1189000" />
       <workItem from="1676910773839" duration="2344000" />
       <workItem from="1676991198455" duration="4000000" />
+      <workItem from="1686910376974" duration="32000" />
+      <workItem from="1686910455428" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1643908877005</created>

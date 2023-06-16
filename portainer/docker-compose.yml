@@ -1,0 +1,19 @@
+version: '3.6'
+services:
+  portainer:
+    container_name: portainer
+    image: 'portainer/portainer-ce:latest'
+    restart: always
+    privileged: true
+    ports:
+      - '9443:9443'
+    volumes:
+      - /portainer/data:/data:Z
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - portainer
+
+networks:
+  portainer:
+    name: portainer
+    external: true
